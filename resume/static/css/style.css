@@ -1,0 +1,35 @@
+.navbar-nav .nav-link:hover {
+    font-weight: bold; /* Ensures bold font on hover */
+    color: #ffffff;    /* White color on hover */
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px; /* Sets font size for nav links */
+}
+
+.navbar-brand {
+    font-size: 30px; /* Sets font size for brand logo/text */
+}
+
+.navbar-dark {
+    background-color: rgb(19,1,46); /* Dark background color for the navbar */
+}
+
+.circular-image-container {
+    width: 200px; /* Adjust as needed */
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:2px solid #f0f0f0; /* Light background color */
+    position: relative;
+}
+
+.circular-image {
+    width: 120%;
+    height: auto;
+    display :block;
+    
+}
